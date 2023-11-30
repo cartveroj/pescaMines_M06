@@ -1,5 +1,56 @@
-p{
+            /*Estilos del juego buscaminas*/
+
+/* Configuración del cuerpo de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Eliminar márgenes */
+    background-image: url(./img_pescamines/fondo-grass-texture_863013-62136.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para el título del juego */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de botones */
+.containerBtn {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px;
+    font-size: medium;
+}
+
+/* Estilos para los párrafos */
+p {
     font-size: medium;
     margin: 0;
     text-align: center;
+}
+
+/* Estilos para las filas y celdas de la tabla */
+tr, td {
+    width: 20px; 
+    height: 20px;
+}
+
+/* Estilos para el contenedor de la tabla */
+#taulell {
+    background-color: #e0cdc0;
+}
+
+/* Estilos para el título específico */
+.title {
+    color: azure;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black; /* Contorno del texto */
 }
